@@ -7,3 +7,18 @@ body {
 #image img {
     width: 250px;
 }
+
+#image {
+    padding: 20px;
+}
+
+#nav {
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#nav a {
+    padding: 50px;
+    text-decoration: none;
+}
