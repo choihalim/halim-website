@@ -1,4 +1,12 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+const picButton = document.getElementById("profilepic");
+const imgArea = document.getElementById("image");
+function showProfilePic() {
+    picButton.addEventListener("click", function() {
+        const img = document.createElement("img");
+        img.src = "./images/profilepic.JPG";
+        imgArea.appendChild(img);
+        picButton.remove();
+    });
+}
 
-document.querySelector("body").appendChild(h2);
+showProfilePic();
